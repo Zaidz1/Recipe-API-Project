@@ -73,7 +73,9 @@ while True:
             print("Invalid input! Please enter valid numbers.")
 
 # Query parameters for the API search
-    querystring = {"q": food_item, "type": "public", "from": 0, "to": 50}
+# Note Add your own Edamam API key in the headers section before running.
+  
+querystring = {"q": food_item, "type": "public", "from": 0, "to": 50}
     headers = {"x-rapidapi-key": "", "x-rapidapi-host": "edamam-recipe-search.p.rapidapi.com", "Accept-Language": "en"}
     response = requests.get(url, headers=headers, params=querystring) # Fetch data from the API
 
