@@ -11,7 +11,6 @@ A simple ingredient-based recipe search tool with nutrition information integrat
 
 ## Technologies Used
 - Python
-- Flask (or your framework, if applicable)
 - Public recipe and nutrition APIs
 
 ## Setup & Usage
